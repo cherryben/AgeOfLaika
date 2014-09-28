@@ -13,6 +13,7 @@
 		B56EED7E19D876A500A34E37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56EED7D19D876A500A34E37 /* Images.xcassets */; };
 		B56EED8119D876A500A34E37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56EED7F19D876A500A34E37 /* LaunchScreen.xib */; };
 		B56EED8D19D876A500A34E37 /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56EED8C19D876A500A34E37 /* AgeOfLaikaTests.swift */; };
+		B56EED9719D8770300A34E37 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56EED9619D8770300A34E37 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B56EED8619D876A500A34E37 /* AgeOfLaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56EED8B19D876A500A34E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56EED8C19D876A500A34E37 /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
+		B56EED9619D8770300A34E37 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		B56EED7419D876A500A34E37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B56EED9619D8770300A34E37 /* AgeOfLaika.jpg */,
 				B56EED7519D876A500A34E37 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					B56EED7019D876A500A34E37 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 283E7WS98W;
 					};
 					B56EED8519D876A500A34E37 = {
 						CreatedOnToolsVersion = 6.1;
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56EED7C19D876A500A34E37 /* Main.storyboard in Resources */,
+				B56EED9719D8770300A34E37 /* AgeOfLaika.jpg in Resources */,
 				B56EED8119D876A500A34E37 /* LaunchScreen.xib in Resources */,
 				B56EED7E19D876A500A34E37 /* Images.xcassets in Resources */,
 			);
