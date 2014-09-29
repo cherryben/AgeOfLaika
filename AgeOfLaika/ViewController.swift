@@ -25,13 +25,28 @@ class ViewController: UIViewController {
     }
 
     @IBAction func convertDogYearsButtonPressed(sender: UIButton) {
-        let yearsFromTextField = enterHumanYearsTextField.text.toInt()!
-        let conversionConstant = 7
-        dogYearsLabel.hidden = false
-        dogYearsLabel.text = "\(yearsFromTextField * conversionConstant)" + " in Dog Years"
+        let stringFromTextField = enterHumanYearsTextField.text
+        let optionalIntFromTextField = stringFromTextField.toInt()
+        let intFromOptional = optionalIntFromTextField!
+        dogYearsLabel.text = "\(intFromOptional * 7)" + " dog years"
         enterHumanYearsTextField.resignFirstResponder()
         
     }
 
+    @IBAction func convertToRealDogYearsButtonPressed(sender: UIButton) {
+        let stringFromTextField = enterHumanYearsTextField.text
+        let optionalDoubleFromTextField = Double((stringFromTextField as NSString).doubleValue)
+        var realDogYears:Double
+        
+        if optionalDoubleFromTextField > 2 {
+            realDogYears = (10.5 * 2) + (optionalDoubleFromTextField - 2) * 4
+        }
+        else {
+        realDogYears = optionalDoubleFromTextField * 10.5
+        }
+    
+    dogYearsLabel.text = "\(realDogYears)" + " real dog years"
+    enterHumanYearsTextField.resignFirstResponder()
+}
 }
 
